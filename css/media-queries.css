@@ -4,243 +4,249 @@
     }
 }
 
+@media screen and (min-device-width: 1200px) {
+    .modal-image {
+        height: 60vmin;
+    }
+}
+
 /*Mobile to Tablet*/
-@media screen and (min-device-width: 320px) and (max-device-width:349px) {
-    .modal-image {
-        display: none;
-    }
+/*@media screen and (min-device-width: 320px) and (max-device-width:349px) {*/
+/*    .modal-image {*/
+/*        display: none;*/
+/*    }*/
     
-    .modal-title {
-        font-size: 30px;
-        margin: 0;
-    }
+/*    .modal-title {*/
+/*        font-size: 30px;*/
+/*        margin: 0;*/
+/*    }*/
     
-    .fa-lg {
-        display: none;
-    }
+/*    .fa-lg {*/
+/*        display: none;*/
+/*    }*/
     
-    .tag:after {
-        content:"\a";
-        white-space: pre;
-    }
+/*    .tag:after {*/
+/*        content:"\a";*/
+/*        white-space: pre;*/
+/*    }*/
 
-    .modal-description {
-        margin: 1.0em 0.0em 2.0em;
-    }
+/*    .modal-description {*/
+/*        margin: 1.0em 0.0em 2.0em;*/
+/*    }*/
     
-    .popup-close {
-        right: 30px;
-    }
-}
+/*    .popup-close {*/
+/*        right: 30px;*/
+/*    }*/
+/*}*/
 
-@media screen and (min-device-width: 350px) and (max-device-width:399px) {
-    .modal-image {
-        display: none;
-    }
+/*@media screen and (min-device-width: 350px) and (max-device-width:399px) {*/
+/*    .modal-image {*/
+/*        display: none;*/
+/*    }*/
     
-    .modal-title {
-        font-size: 30px;
-        margin: 0;
-    }
+/*    .modal-title {*/
+/*        font-size: 30px;*/
+/*        margin: 0;*/
+/*    }*/
     
-    .fa-lg {
-        display: none;
-    }
+/*    .fa-lg {*/
+/*        display: none;*/
+/*    }*/
     
-    .tag:after {
-        content:"\a";
-        white-space: pre;
-    }
+/*    .tag:after {*/
+/*        content:"\a";*/
+/*        white-space: pre;*/
+/*    }*/
 
-    .modal-description {
-        margin: 1.0em 0.0em 3.0em;
-    }
+/*    .modal-description {*/
+/*        margin: 1.0em 0.0em 3.0em;*/
+/*    }*/
     
-    .popup-close {
-        right: 30px;
-    }
-}
+/*    .popup-close {*/
+/*        right: 30px;*/
+/*    }*/
+/*}*/
 
-@media screen and (min-device-width: 400px) and (max-device-width:499px) {
-    .modal-image {
-        display: none;
-    }
+/*@media screen and (min-device-width: 400px) and (max-device-width:499px) {*/
+/*    .modal-image {*/
+/*        display: none;*/
+/*    }*/
     
-    .modal-title {
-        font-size: 30px;
-        margin: 0;
-    }
+/*    .modal-title {*/
+/*        font-size: 30px;*/
+/*        margin: 0;*/
+/*    }*/
     
-    .fa-lg {
-        display: none;
-    }
+/*    .fa-lg {*/
+/*        display: none;*/
+/*    }*/
     
-    .tag:after {
-        content:"\a";
-        white-space: pre;
-    }
+/*    .tag:after {*/
+/*        content:"\a";*/
+/*        white-space: pre;*/
+/*    }*/
 
-    .modal-description {
-        margin: 1.0em 0.0em 3.0em;
-    }
+/*    .modal-description {*/
+/*        margin: 1.0em 0.0em 3.0em;*/
+/*    }*/
     
-    .popup-close {
-        right: 30px;
-    }
+/*    .popup-close {*/
+/*        right: 30px;*/
+/*    }*/
     
-    .popup-inner {
-        padding: 60px;
-    }
-}
+/*    .popup-inner {*/
+/*        padding: 60px;*/
+/*    }*/
+/*}*/
 
-@media screen and (min-device-width: 350px) and (max-device-width:359px) {
-    .modal-image {
-        display: none;
-    }
+/*@media screen and (min-device-width: 350px) and (max-device-width:359px) {*/
+/*    .modal-image {*/
+/*        display: none;*/
+/*    }*/
     
-    .modal-title {
-        font-size: 30px;
-        margin: 0;
-    }
+/*    .modal-title {*/
+/*        font-size: 30px;*/
+/*        margin: 0;*/
+/*    }*/
     
-    .fa-lg {
-        display: none;
-    }
+/*    .fa-lg {*/
+/*        display: none;*/
+/*    }*/
     
-    .tag:after {
-        content:"\a";
-        white-space: pre;
-    }
+/*    .tag:after {*/
+/*        content:"\a";*/
+/*        white-space: pre;*/
+/*    }*/
 
-    .modal-description {
-        margin: 1.0em 0.0em 3.0em;
-    }
+/*    .modal-description {*/
+/*        margin: 1.0em 0.0em 3.0em;*/
+/*    }*/
     
-    .popup-close {
-        right: 30px;
-    }
-}
+/*    .popup-close {*/
+/*        right: 30px;*/
+/*    }*/
+/*}*/
 
-@media screen and (min-device-width: 400px) and (max-device-width:499px) {
-    .modal-image {
-        display: none;
-    }
+/*@media screen and (min-device-width: 400px) and (max-device-width:499px) {*/
+/*    .modal-image {*/
+/*        display: none;*/
+/*    }*/
     
-    .modal-title {
-        font-size: 30px;
-        margin: 0;
-    }
+/*    .modal-title {*/
+/*        font-size: 30px;*/
+/*        margin: 0;*/
+/*    }*/
     
-    .fa-lg {
-        display: none;
-    }
+/*    .fa-lg {*/
+/*        display: none;*/
+/*    }*/
     
-    .tag:after {
-        content:"\a";
-        white-space: pre;
-    }
+/*    .tag:after {*/
+/*        content:"\a";*/
+/*        white-space: pre;*/
+/*    }*/
 
-    .modal-description {
-        margin: 1.0em 0.0em 3.0em;
-    }
+/*    .modal-description {*/
+/*        margin: 1.0em 0.0em 3.0em;*/
+/*    }*/
     
-    .popup-close {
-        right: 30px;
-    }
+/*    .popup-close {*/
+/*        right: 30px;*/
+/*    }*/
     
-    .popup-inner {
-        padding: 60px;
-    }
-}
+/*    .popup-inner {*/
+/*        padding: 60px;*/
+/*    }*/
+/*}*/
 
-@media screen and (min-device-width: 500px) and (max-device-width:600px) {
-    .modal-image {
-        display: none;
-    }
+/*@media screen and (min-device-width: 500px) and (max-device-width:600px) {*/
+/*    .modal-image {*/
+/*        display: none;*/
+/*    }*/
     
-    .modal-title {
-        font-size: 30px;
-        margin: 0;
-    }
+/*    .modal-title {*/
+/*        font-size: 30px;*/
+/*        margin: 0;*/
+/*    }*/
     
-    .fa-lg {
-        display: none;
-    }
+/*    .fa-lg {*/
+/*        display: none;*/
+/*    }*/
     
-    .tag:after {
-        content:"\a";
-        white-space: pre;
-    }
+/*    .tag:after {*/
+/*        content:"\a";*/
+/*        white-space: pre;*/
+/*    }*/
 
-    .modal-description {
-        margin: 1.0em 0.0em 3.0em;
-    }
+/*    .modal-description {*/
+/*        margin: 1.0em 0.0em 3.0em;*/
+/*    }*/
     
-    .popup-close {
-        right: 30px;
-    }
+/*    .popup-close {*/
+/*        right: 30px;*/
+/*    }*/
     
-    .popup-inner {
-        padding: 100px;
-    }
-}
+/*    .popup-inner {*/
+/*        padding: 100px;*/
+/*    }*/
+/*}*/
 
 /*Tablet and small laptops*/
-@media screen and (min-device-width: 601px) and (max-device-width:750px) {
-    .modal-image {
-        height: 200px;
-    }
+/*@media screen and (min-device-width: 601px) and (max-device-width:750px) {*/
+/*    .modal-image {*/
+/*        height: 200px;*/
+/*    }*/
     
-    .modal-title {
-        font-size: 25px;
-    }
+/*    .modal-title {*/
+/*        font-size: 25px;*/
+/*    }*/
     
-    .modal-description {
-        font-size: 14px;
-        margin: 1.0em 5.0em 3.0em;
-    }
-}
+/*    .modal-description {*/
+/*        font-size: 14px;*/
+/*        margin: 1.0em 5.0em 3.0em;*/
+/*    }*/
+/*}*/
 
-@media screen and (min-device-width: 751px) and (max-device-width:900px) {
-    .modal-image {
-        height: 285px;
-    }
+/*@media screen and (min-device-width: 751px) and (max-device-width:900px) {*/
+/*    .modal-image {*/
+/*        height: 285px;*/
+/*    }*/
 
-    .modal-title {
-        font-size: 25px;
-    }
+/*    .modal-title {*/
+/*        font-size: 25px;*/
+/*    }*/
     
-    .modal-description {
-        font-size: 14px;
-        margin: 1.0em 1.0em 2.0em;
-    }
-}
+/*    .modal-description {*/
+/*        font-size: 14px;*/
+/*        margin: 1.0em 1.0em 2.0em;*/
+/*    }*/
+/*}*/
 
 /*Laptops and medium laptops*/
-@media screen and (min-device-width: 1026px) and (max-device-width:1281px) {
-    .modal-title {
-        font-size: 35px;
-    }
+/*@media screen and (min-device-width: 1026px) and (max-device-width:1281px) {*/
+/*    .modal-title {*/
+/*        font-size: 35px;*/
+/*    }*/
     
-    .tag {
-        font-size: 10.5px;
-    }
+/*    .tag {*/
+/*        font-size: 10.5px;*/
+/*    }*/
     
-    .modal-description {
-        margin: 1.0em 5.0em 3.5em;
-    }
-}
+/*    .modal-description {*/
+/*        margin: 1.0em 5.0em 3.5em;*/
+/*    }*/
+/*}*/
 
 /*Large Screens*/
-@media screen and (min-device-width: 1400px) {
-    .modal-image {
-        height: 400px;
-    }
+/*@media screen and (min-device-width: 1400px) {*/
+/*    .modal-image {*/
+/*        height: 400px;*/
+/*    }*/
     
-    .modal-description {
-        margin: 1.0em 8.0em 2.0em;
-    }
-}
+/*    .modal-description {*/
+/*        margin: 1.0em 8.0em 2.0em;*/
+/*    }*/
+/*}*/
 
 @media screen and (max-device-width: 500px) {
 /*Intro Section*/
