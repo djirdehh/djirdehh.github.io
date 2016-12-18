@@ -29,12 +29,12 @@
   -o-transition: all .2s ease-in;
   -webkit-transition: all .2s ease-in;
   transition: all .2s ease-in;
-  -webkit-animation-delay: 5s;
+  -webkit-animation-delay: .9s;
 }
 
 .image-list-small li > a:hover {
-  -webkit-box-shadow: 0 0 15px #fff;
-  box-shadow: 0 0 15px #fff;
+  -webkit-box-shadow: 0 0 10px #fff;
+  box-shadow: 0 0 10px #fff;
 }
 
 .image-list-small .details {
