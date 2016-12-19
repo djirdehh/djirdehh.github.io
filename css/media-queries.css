@@ -10,6 +10,16 @@
     }
 }
 
+@media screen and (min-device-width: 1300px) {
+    .modal-title {
+        font-size: 5vmin;
+    }
+
+    .modal-description {
+        margin: 1.0em 8.0em 2.0em;
+    }
+}
+
 /*Mobile to Tablet*/
 /*@media screen and (min-device-width: 320px) and (max-device-width:349px) {*/
 /*    .modal-image {*/
