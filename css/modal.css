@@ -50,7 +50,9 @@
     -webkit-transform:translate(50%, -50%);
     transform:translate(50%, -50%);
     border-radius:1000px;
-    background: rgba(233, 230, 230, 0.8);
+    /*background: rgba(233, 230, 230, 0.8);*/
+    background:#1EAEDB;
+    color: #fff !important;
     font-family:Arial, Sans-Serif;
     font-size:20px;
     text-align:center;
