@@ -290,4 +290,31 @@
     .experience-overlay .experience-block:nth-child(odd) .experience-content {
         left: -15px;
     }
+    
+    /*Modal Section*/
+    .modal-image {
+        display: none;
+    }
+    
+    .modal-title {
+        font-size: 9vmin;
+        margin: 0;
+    }
+    
+    .fa-lg {
+        display: none;
+    }
+    
+    .tag {
+        font-size: 2.0vmin;
+    }
+
+    .modal-description {
+        font-size: 5.0vmin;
+        margin: 1.0em 0.0em 3.0em;
+    }
+    
+    .popup-close {
+        right: 30px;
+    }
 }
