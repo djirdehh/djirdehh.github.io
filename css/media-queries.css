@@ -277,21 +277,7 @@
         margin-bottom: 50px;
     }
 
-
-/*Experience Section*/
-    .experience-overlay .experience-block .experience-content .description {
-        display: none;
-    }
-    
-    .experience-overlay .experience-block .experience-content {
-        left: 15px;
-    }
-    
-    .experience-overlay .experience-block:nth-child(odd) .experience-content {
-        left: -15px;
-    }
-    
-    /*Modal Section*/
+/*Modal Section*/
     .modal-image {
         display: none;
     }
@@ -316,5 +302,25 @@
     
     .popup-close {
         right: 30px;
+    }
+
+/*Experience Section*/
+    .experience-overlay .experience-block .experience-content .description {
+        display: none;
+    }
+    
+    .experience-overlay .experience-block .experience-content {
+        left: 15px;
+        z-index: 1;
+    }
+    
+    .experience-overlay .experience-block:nth-child(odd) .experience-content {
+        left: -15px;
+        z-index: 1;
+    }
+
+/*Contact Section*/
+    input {
+        width: 100%;
     }
 }
