@@ -18,7 +18,7 @@
 }
 .section-heading {
     margin-bottom: 1.2rem;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-weight: 300;
     font-size: 5.0em;
     color: #80be00;
@@ -39,14 +39,14 @@
 
 .section-description-one {
   margin-bottom: 1.2rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Nunito', sans-serif;
   color: #FFF;
   font-size: 2.0em;
   -webkit-animation-delay: 2s;
 }
 .section-description-two {
   margin-bottom: 1.2rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Nunito', sans-serif;
   color: #FFF;
   font-size: 2.0em;
   -webkit-animation-delay: 3s;
@@ -259,7 +259,7 @@
 }
 
 p.intro {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 3.2rem;
   line-height: 1.4;
   text-align: center;
@@ -267,8 +267,9 @@ p.intro {
 }
 
 p.statement {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 1.5rem;
+  font-weight: 700;
   text-align: center;
   color: #ffffff;
   margin-bottom: 20px;
@@ -282,7 +283,7 @@ p.statement {
 
 h4.title {
   margin: 1.8rem 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 3.0rem;
   line-height: 1.4;
   text-align: center;
@@ -319,7 +320,7 @@ h4.title {
 }
 
 .experience-heading {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 3.0rem;
   line-height: 1.4;
   text-align: center;
@@ -347,7 +348,7 @@ h4.title {
 }
 
 .experience-description {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Nunito', sans-serif;
   text-align: center;
   font-size: 1.3rem;
   color: #ffffff;
@@ -357,6 +358,137 @@ h4.title {
   padding-top: 40px;
   background: url(../images/views.jpg) center fixed;
 }
+
+.images {
+	display: block;
+	position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.citii-logo {
+	height: 200px;
+}
+
+.citii-intro {
+	font-family: 'Nunito', sans-serif;
+    font-size: 3.9rem;
+    line-height: 1.4;
+    text-align: center;
+	margin-bottom: 0px; 
+	letter-spacing: 5px; 
+	color: #e94a87;
+}
+
+/*Citii Fancy Button*/
+/* Mixins */
+.bg-gradient1 span,
+.bg-gradient1:before {
+  background: #e94a87;
+  background: -moz-linear-gradient(left, #e94a87 0%, #fa0073 80%, #fa0073 100%);
+  background: -webkit-linear-gradient(left, #e94a87 0%, #fa0073 80%, #fa0073 100%);
+  background: linear-gradient(to right, #e94a87 0%, #fa0073 80%, #fa0073 100%);
+}
+
+.bg-gradient3 span,
+.bg-gradient3:before {
+  background: #fa6c9f;
+  background: -moz-linear-gradient(left, #fa6c9f 0%, #ffe140 80%, #ffe140 100%);
+  background: -webkit-linear-gradient(left, #fa6c9f 0%, #ffe140 80%, #ffe140 100%);
+  background: linear-gradient(to right, #fa6c9f 0%, #ffe140 80%, #ffe140 100%);
+}
+
+/* General */
+.wrapper {
+  margin: 5% auto;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover, a:focus, a:active {
+  text-decoration: none;
+}
+
+/* fancy Button */
+.fancy-button {
+  display: inline-block;
+  margin: 30px;
+  font-family: 'Montserrat', Nunito, Open-sans, sans-serif;
+  font-size: 17px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  position: relative;
+}
+.fancy-button:before {
+  content: '';
+  display: inline-block;
+  height: 40px;
+  position: absolute;
+  bottom: -5px;
+  left: 30px;
+  right: 30px;
+  z-index: -1;
+  border-radius: 30em;
+  filter: blur(20px) brightness(0.95);
+  transform-style: preserve-3d;
+  transition: all 0.3s ease-out;
+}
+.fancy-button i {
+  margin-top: -1px;
+  margin-right: 20px;
+  font-size: 1.265em;
+  vertical-align: middle;
+}
+.fancy-button span {
+  display: inline-block;
+  padding: 18px 60px;
+  border-radius: 50em;
+  position: relative;
+  z-index: 2;
+  will-change: transform, filter;
+  transform-style: preserve-3d;
+  transition: all 0.3s ease-out;
+}
+.fancy-button:focus, .fancy-button:active {
+  color: #ffffff;
+}
+.fancy-button:hover {
+  color: #ffffff;
+}
+.fancy-button:hover span {
+  filter: brightness(1.05) contrast(1.05);
+  transform: scale(0.95);
+}
+.fancy-button:hover:before {
+  bottom: 0;
+  filter: blur(10px) brightness(0.95);
+}
+.fancy-button.pop-onhover:before {
+  opacity: 0;
+  bottom: 10px;
+}
+.fancy-button.pop-onhover:hover:before {
+  bottom: -7px;
+  opacity: 1;
+  filter: blur(20px);
+}
+.fancy-button.pop-onhover:hover span {
+  transform: scale(1.04);
+}
+.fancy-button.pop-onhover:hover:active span {
+  filter: brightness(1) contrast(1);
+  transform: scale(1);
+  transition: all 0.15s ease-out;
+}
+.fancy-button.pop-onhover:hover:active:before {
+  bottom: 0;
+  filter: blur(10px) brightness(0.95);
+  transition: all 0.2s ease-out;
+}
+
 
 /*Colors*/
 .green {
