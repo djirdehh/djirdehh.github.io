@@ -421,6 +421,7 @@ a:hover, a:focus, a:active {
   text-transform: uppercase;
   color: #ffffff;
   position: relative;
+  z-index: 0;
 }
 .fancy-button:before {
   content: '';
