@@ -275,6 +275,14 @@ p.statement {
   margin-bottom: 20px;
 }
 
+p.citii-statement {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+
 .personal-photo {
   height: 160px;
   border-radius: 50%;
@@ -372,7 +380,7 @@ h4.title {
 
 .citii-intro {
 	font-family: 'Nunito', sans-serif;
-    font-size: 3.9rem;
+    font-size: 4.5rem;
     line-height: 1.4;
     text-align: center;
 	margin-bottom: 0px; 
