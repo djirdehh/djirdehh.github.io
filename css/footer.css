@@ -73,8 +73,13 @@
 }
 
 .social_links {
+    margin-bottom: 10px;
+}
+
+.social_links a {
     text-decoration: none;
     color: #80be00;
+    padding: 0 5px;
 }
 
 #social-em:hover {
